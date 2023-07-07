@@ -95,15 +95,29 @@ a:hover{
   
 }
 
+
+.skill-row  .h23:hover{
+color: red;
+}
+
+
+
+.projectlines{
+    margin-top: -15px;
+}
+
+
 .img1{
-    width: 25%;
+    width: 23%;
     float: left;
     margin-right: 30px;
+    margin-top: 30px;
 }
 .img2{
-    width: 25%;
+    width: 23%;
     float: right;
     margin-left: 30px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -146,4 +160,36 @@ a:hover{
         color: #eaf6f6;
         font-size: 0.75rem;
         padding: 20px 0;
+    }
+
+.cinemadudes:hover{
+color: red;
+}
+
+
+    /* media queries  */
+    @media screen and (max-width:992px) {
+        
+        .cloud1{
+            position: absolute;
+            right: 200px;
+            top: 40px;
+         }
+
+
+        .cloud2{
+            position: absolute;
+            left: 150px;
+            bottom: 300px;
+        }
+
+
+    .skill-row p {
+        text-align: left;
+        margin-left: 5px;
+    }
+
+
+
+
     }
