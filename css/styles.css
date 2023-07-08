@@ -3,6 +3,7 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
    color: #40514E;
+   height: auto;
 }
 
 hr{
@@ -193,3 +194,59 @@ color: red;
 
 
     }
+
+    @media screen and (max-width:442px){
+
+.mountainpng{
+    width: 300px;
+}
+
+.cloud1{
+    right: 250px;
+    width: 100px;
+ }
+
+ .cloud2{
+    width: 100px;
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+ }
+   
+.top-container h1{
+    font-size: 4.5em;
+    padding-bottom: 60px;
+}
+
+.top-container h2 .h2{
+    font-size: 1.5rem;
+}
+
+.myimg{
+    width: 28%;
+    height: 28%;
+}
+
+.intro{
+    width: auto;
+    margin-left: 100px;
+    text-align: left;
+  }
+
+  .cinemadudes{
+    margin-left: 2px;
+  }
+
+  .skill-row{
+    width: auto;
+    margin: 100px 40px 100px 40px;
+   text-align: left;
+  
+}
+
+.img2{
+    width: 27%;
+    height: 27%;
+}
+
+}
